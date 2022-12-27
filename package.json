@@ -1,7 +1,7 @@
 {
-  "name": "jtapp",
+  "name": "jtapp",  
+  "homepage": "https://kamriyashiv.github.io/Jagdamba_trailer/",
   "version": "0.1.0",
-  "homepage": "https://reactteam01.github.io/JT_React/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
