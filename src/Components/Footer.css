@@ -1,0 +1,14 @@
+.footerBox{
+    justify-content: space-between;
+    align-items: center;
+}
+.fSocial{
+    display: flex;
+    justify-content: center;
+}
+.footerBox img{
+    width: 30% !important;
+}
+.fCreadit {
+    border-top:1px solid gray;
+}

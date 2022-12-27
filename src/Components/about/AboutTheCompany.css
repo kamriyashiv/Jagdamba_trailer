@@ -1,0 +1,18 @@
+.allCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.allCenter h1{
+    color: black;
+    font-weight: 700;
+}
+.thecompany .card{
+    width: 95%;
+    word-spacing: 5px;
+    line-height: 190%;
+    font-weight: 600;
+    text-align: justify;
+    box-shadow: 2px 2px 30px 0 rgb(156 156 192 / 26%);;
+}

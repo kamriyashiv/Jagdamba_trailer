@@ -1,0 +1,83 @@
+.Hrow,.navBox,.navList{
+    justify-content: space-between;
+    align-items: center;
+}
+.Mbtn{
+    display:none;
+}
+.navList ul{
+    align-items: center;
+}
+.mainNav{
+    box-shadow: 0px 6px 12px -8px #808080b8;
+}
+
+.btnNew{
+    background-color: #502c7a;
+}
+.navList a{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+.navList a:hover{
+    color: rgb(184, 25, 52); 
+    font-weight: 700;   
+}
+.navList a:hover :last-child{
+    color: rgb(243, 237, 238); 
+    font-weight: 700;   
+}
+nav{
+    position: sticky;
+    top:0px;
+    z-index: 999;
+    background-color: white;
+}
+
+
+/*-----baner----*/
+.bannerContent{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CimgBox{
+    width:20%;
+}
+.Cbox{
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,h3,h4,h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Dmenu {
+    position: absolute;
+    left: -20px;
+    right: -138px;
+    background-color: white;
+    padding: 10px 20px;
+    list-style: none;
+    line-height: 1.8;
+    border-radius: 8px;
+    box-shadow: 2px 11px 16px -12px grey;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+    transform: translateY(0px);
+}
+.drop:hover .Dmenu{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.2s;
+    transform: translateY(10px);
+    
+}
+
+.Show{
+    display:block;
+}

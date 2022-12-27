@@ -1,0 +1,77 @@
+@media screen and (max-width:640px) {
+    .navBox,.navList ul,.bannerContent  {
+        display: block!important;
+    }
+    .navList ul{
+        line-height: 2.5;
+    }
+    .Dmenu{
+        right: 0px;
+    }
+    .mainHeader {
+        display: none;
+    }
+    .logo,.bannerContent .w-50 {
+        width: 100% !important;
+    }
+    .logo img{
+        width: 70%!important;
+    }
+    
+    .Mbtn{
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 8px;
+        background-color: #ed2461;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .navBox {
+        position: relative;
+    }
+
+    .hide{
+        display: none !important;
+    }
+    .contantBox h1{
+        font-size: 22px;
+    }
+    .Cardbox{
+        width:100%;
+        height:auto;
+    }
+    .slick-prev, .slick-next {
+        display: none!important;
+    }
+    .footerBox img{
+        width: 70% !important;;
+    }
+    .cBigboc .col-md-3{
+        margin:10px 0px!important;
+    }
+  
+}
+
+@media screen and (max-width:768px){
+    .hide{
+        display: none !important;
+    }
+    .Mbtn{
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 8px;
+        background-color: #ed2461;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .navList ul{
+        line-height: 2.5;
+    }
+    .navList ul,.navBox{
+        display: block!important;
+    }
+}
